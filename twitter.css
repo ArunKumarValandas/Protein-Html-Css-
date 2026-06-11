@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width:550px;
+    margin:   30px auto;
+    background-color: white;
+    padding: 100px;
+    border-radius: 190px; 
+  box-shadow:0 0 10px rgb(0,0,0,0.1);
+}
+h1{
+    text-align: center;
+    color:blue;
+}
+.tweet-box{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea
+{
+    resize: none;
+    height: 91px;
+    padding: 11px;
+    font-size: 15px;
+    border: 1px solid#ccd6dd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button{
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+button:hover{
+    background-color: #1da1f2;
+
+}
+.tweet{
+    border-top: 1px soild #01e8ed;
+    padding: 15px 0;
+}
+.tweet-text{
+    font-size:10px;
+    margin-bottom: 5px;
+
+
+}
+.tweet-actions{
+    display: flex;
+    align-items: center;
+gap: 12px;
+}
+.like-btn{
+    cursor: pointer;
+ color: violet;
+}
+.like-btn.liked{
+    color:whitesmoke;
+}
