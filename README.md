@@ -14,5 +14,3 @@ A simple and responsive HTML & CSS project that displays **Vegetarian** and **No
 
 - HTML5
 - CSS3
-
-## 📂 Project Structure
